@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    overflow: hidden;
+    cursor: none;
+}
+
+#cursor {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 9px solid rgb(197, 17, 17);
+    box-sizing: border-box;
+    transition: 0.1s;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+h2 {
+    color: rgb(197, 17, 17);
+}

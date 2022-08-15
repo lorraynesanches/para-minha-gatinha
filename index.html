@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>a game for her</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>princesa time</h2>
+        <div id="cursor"></div>
+        <script type="text/javascript">
+            var cursor = document.getElementById('cursor');
+            document.addEventListener('mousemove', function(e){
+                var x = e.clientX;
+                var y = e.clientY;
+                cursor.style.left = x + "px";
+                cursor.style.top = y + "px"
+            });
+        </script>
+    </body>
+</html>
